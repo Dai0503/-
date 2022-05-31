@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    position: relative;
+}
+
+.head {
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    background: #FF8A00;
+}
+
+.logo {
+    width: 60%;
+    height: 100%;
+    background: url(../image/index/logo.jpg) no-repeat 2rem 0;
+    background-size: 70%;
+}
+
+.my {
+    width: 20%;
+    height: 100%;
+    background: url(../image/index/my.jpg) no-repeat 3.5rem 1rem;
+    background-size: 40%;
+}
+
+.xiazai {
+    width: 20%;
+    height: 100%;
+    background: url(../image/index/xiazai.jpg) no-repeat 0rem 1rem;
+    background-size: 40%;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+}
+
+li {
+    width: 100%;
+    height: 6rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #999;
+}
+
+li>span {
+    font-weight: 900;
+}
+
+li>input {
+    border: none;
+    font-size: 1.5rem;
+    outline: none;
+}
+
+.pt {
+    display: flex;
+    padding: 0 0rem;
+
+    justify-content: space-between;
+}
+
+.pt>p {
+
+    text-align: center;
+    line-height: 6rem;
+    width: 50%;
+    height: 100%;
+    border-bottom: 3px solid #999;
+}
+
+.pt>.p1 {
+    border-bottom: 3px solid #FF8A00;
+    /* border-bottom: none; */
+
+}
+
+button {
+    width: 90%;
+    height: 5rem;
+    background: #FF8A00;
+    border: none;
+    font-size: 2rem;
+    color: rgb(248, 246, 246);
+    margin: 1rem 5%;
+
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+footer>a {
+    text-decoration: none;
+}
+
+footer>a:nth-of-type(1) {
+    color: red;
+}
+
+.box {
+    list-style: none;
+    position: relative;
+    top: -22.6rem;
+    display: none;
+
+}
+
+.yzm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.yzm>p {
+
+    text-align: center;
+    line-height: 3.6rem;
+    width: 30%;
+    height: 90%;
+    border: 1px solid #999;
+}
