@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    background: #F5F5F5;
+
+
+}
+
+.bj {
+    width: 100%;
+}
+
+.bj>img {
+    width: 100%;
+}
+
+.head {
+    width: 30%;
+    display: flex;
+    position: absolute;
+    top: 2rem;
+    right: 0rem;
+}
+
+
+.head img {
+    width: 60%;
+}
+
+.tx {
+    width: 30%;
+    position: absolute;
+    top: 12%;
+    left: 44%;
+}
+
+.tx img {
+    width: 50%;
+}
+
+.tx a {
+    display: block;
+    margin-left: 0%;
+    margin-top: 1rem;
+    text-align: center;
+    /* padding: 1rem; */
+    font-size: 1.5rem;
+    height: 50%;
+    line-height: 2rem;
+    width: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    background-color: #fff;
+}
+
+li {
+    width: 100%;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #999;
+    background: url(../image/rentalList/right.png)no-repeat 95% 50%;
+    background-size: 3%;
+}
+
+li img {
+    width: 5%;
+}
