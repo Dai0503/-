@@ -246,6 +246,7 @@ footer .content ul li div p {
 }
 footer .text {
   margin-top: 1.6rem;
+  height: 6rem;
 }
 footer .text p {
   text-align: center;
