@@ -1,0 +1,331 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background: #f5f5f5;
+}
+a{
+    text-decoration: none;
+}
+// 头部
+header{
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(255,138,0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .log{
+        a{
+            img{
+                width: 11rem;
+                height: 3.6rem;
+            }
+        }
+    }
+    .my{
+        a{
+            margin-left: 1rem;
+            img{
+                width: 2.9rem;
+                height: 3.3rem;
+            }
+        }
+    }
+}
+
+
+.adress{
+    height: 4rem;
+    background-color: white;
+    line-height: 4rem;
+    font-size: 1.4rem;
+    padding-left: 1.5rem;
+    :first-of-type{
+        font-weight: bolder;
+    }
+}
+
+//大图
+
+.banner{
+    position: relative;
+    a{
+       color: #666;
+       img{
+           width: 100%;
+           height: 21.7rem;
+       } 
+      
+    }
+    .share{
+        background: rgb(0, 0, 0,);
+        opacity: 0.6;
+        position: absolute;
+        right: 0;
+        bottom: 1rem;
+        font-size: 1.6rem;
+        color: #ffffff;
+        width: 7rem;
+        height: 4.8rem;
+        text-align: center;
+        line-height: 4.8rem; 
+        border-radius: 10px 0 0 10px;
+     }
+}
+
+//房源信息
+
+.xinXi{
+    .jieShao{
+        height: 8rem;
+        background: #f9f9f9;
+        display: flex;
+        h2{
+            flex: 78;
+            font-size: 2rem;
+            line-height: 2.5rem;
+            margin-left: 1.5rem;
+            padding-top: 1.4rem;
+        }
+        a{
+            flex: 22;
+            border-left: 1px solid #dcdcdc;
+            text-align: center;
+            padding-top: 4.8rem;
+            font-size: 1.6rem;
+            color: #666666;
+            background: url(../image/rentalList/xin.png) 2.7rem 1.8rem no-repeat;
+            background-size: 2.2rem 2.2rem;
+        }
+    }
+    .home{
+        display: flex;
+        padding: 3rem 0;
+        border-top: 1px solid #dcdcdc;
+        border-bottom: 1px solid #dcdcdc;
+        li{
+            flex: 1;
+            list-style: none;
+            text-align: center;
+            border-right: 1px solid #dcdcdc;
+            font-size: 1.6rem;
+            div:last-of-type{
+                
+                color: #ff8a00;
+                margin-top: 0.6rem;
+            }
+        }
+    }
+    .home2{
+        background: #ffffff;
+        border-bottom: 1px solid #e5e5ee;
+        padding: 0 2rem;
+        li{
+            font-size: 1.5rem;
+            height: 5rem;
+            line-height: 5rem;
+            list-style: none;
+            border-bottom: 1px solid #e5e5ee;
+            div{
+                display: inline-block;
+                width: 48%;
+            }
+        }
+    }
+}
+// 经纪人房评
+
+.discuss{
+    margin: 0.9rem;
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    h2{
+      height: 4.5rem;
+      line-height: 4.5rem;
+      font-size: 1.8rem;
+      color: #ff8a00;
+      background: url(../image/rentalList/right.png) 33rem center no-repeat;
+      background-size: 1rem 2rem;
+      padding: 0 1.6rem;
+      border-bottom: 1px solid #dcdcdc;  
+    }
+    p{
+        font-size: 1.5rem;
+        padding: 1rem;
+        line-height: 2.3rem;
+    }
+}
+
+// 看房记录
+.record{
+    margin: 0.9rem;
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    h2{
+      height: 4.5rem;
+      line-height: 4.5rem;
+      font-size: 1.8rem;
+      color: #ff8a00;
+      background: url(../image/rentalList/right.png) 33rem center no-repeat;
+      background-size: 1rem 2rem;
+      padding: 0 1.6rem;
+      border-bottom: 1px solid #dcdcdc;  
+    }
+    p{
+        font-size: 1.5rem;
+        padding: 1rem;
+        line-height: 2.3rem;
+    }
+}
+
+// 位置
+
+.where{
+    margin: 0.9rem;
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    h2{
+      height: 4.5rem;
+      line-height: 4.5rem;
+      font-size: 1.8rem;
+      color: #ff8a00;
+      background: url(../image/rentalList/right.png) 33rem center no-repeat;
+      background-size: 1rem 2rem;
+      padding: 0 1.6rem;
+      border-bottom: 1px solid #dcdcdc;  
+    }
+    div{
+        width: 32.8rem;
+        border: 1px solid #dcdcdc;
+        margin: 1rem auto;
+        h3{
+            height: 3.7rem;
+            font-size: 1.7rem;
+            line-height: 3.5rem;
+            padding-left: 0.5rem;
+        }
+        img{
+           width: 100%; 
+        }
+        
+    }
+}
+
+// 成交历史
+.history{
+    margin: 0.9rem;
+    background: #ffffff;
+    border: 1px solid #dcdcdc;
+    h2{
+      height: 4.5rem;
+      line-height: 4.5rem;
+      font-size: 1.8rem;
+      color: #ff8a00;
+      background: url(../image/rentalList/right.png) 33rem center no-repeat;
+      background-size: 1rem 2rem;
+      padding: 0 1.6rem;
+      border-bottom: 1px solid #dcdcdc;  
+    }
+    p{
+        padding-left: 1rem;
+        font-size: 1.6rem;
+        line-height: 4rem;
+    }
+}    
+
+
+.tel{
+    background-color: #ffffff;
+    display: flex;
+    height: 6.7rem;
+    .man{
+      display: flex;
+      flex: 63;
+      padding: 0.9rem;  
+      img{
+          width: 4.7rem;
+          height: 4.7rem;
+          margin-right: 0.9rem;
+      }
+      div{
+          font-size: 1.5rem;
+          
+      }
+    }
+    .phone{
+        flex: 37;
+        display: flex;
+        margin-top: 0.5rem;
+        a{
+            flex: 1;
+            display: inline-block;
+            padding-top: 3rem;
+            font-size: 1.5rem;
+        }
+        a:first-of-type{
+            color: #5dcb96;
+            background: url(../image/rentalList/icon1.png) 0 0 no-repeat;
+            background-size: 3rem 3rem;
+        }
+        :last-of-type{
+            color: #5baede;
+            background: url(../image/rentalList/icon2.png) 0 0 no-repeat;
+            background-size: 3rem 3rem;
+        }
+    }
+}
+
+
+// 底部
+
+footer{
+    background-color: #2f3130;
+    color: #939494;
+    padding: 0 1.5rem;
+    h2{
+       font-size: 1.8rem;
+       height: 4rem;
+       line-height: 4rem;
+       border-bottom: 1px solid #3e403f; 
+    }
+    .content{
+        padding: 1.5rem 0;
+        ul{
+            display: flex;
+            li{
+                list-style: none;
+                flex: 1;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 2.3rem;
+                    height: 2.8rem;
+                    margin-right: 1.6rem;
+                    margin-left: 1rem;
+                }
+                div{
+                    p{
+                      font-size: 1.4rem;  
+                    }
+                }
+            }
+        }
+    }
+    .text{
+        height: 6rem;
+        margin-top: 1.5rem;
+        
+
+        p{
+            text-align: center;
+            font-size: 1.5rem; 
+            line-height: 2.3rem;
+        }
+    }
+}
