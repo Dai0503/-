@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    background: #ebeaea;
+}
+
+.head {
+    height: 7rem;
+    width: 100%;
+    display: flex;
+    background: #FF8A00;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 70%;
+}
+
+.logo img {
+    width: 50%;
+    height: 100%;
+}
+
+.my img {
+    width: 70%;
+    margin-top: 1rem;
+}
+
+.xiazai img {
+    width: 70%;
+    margin-top: 1rem;
+}
+
+body>p {
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+p>a {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+}
+
+img {
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 20rem;
+    background: url(../image/my/bg1.png) no-repeat 0px 0px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box>img {
+    width: 20%;
+}
+
+.box>p {
+    font-size: 1.5rem;
+    color: #F5F5F5;
+}
+
+ul {
+    list-style: none;
+    padding: 0 1rem;
+    background-color: #fff;
+}
+
+li {
+    width: 100%;
+    line-height: 4rem;
+    font-size: 1.5rem;
+    color: rgb(123, 121, 121);
+    border-bottom: 1px solid rgb(202, 198, 198);
+    background: url(../image/rentalList/right.png)no-repeat 95% 50%;
+    background-size: 3%;
+}
+
+body>a {
+    text-decoration: none;
+    display: inline-block;
+    background: #fff;
+    color: red;
+    width: 90%;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 2%;
+}
